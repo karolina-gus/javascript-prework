@@ -58,5 +58,5 @@ function displayResult(argComputerMove, argPlayerMove){
       }
 }
 
-displayResult(argPlayerMove, argComputerMove)
+displayResult(argComputerMove, argPlayerMove)
  
