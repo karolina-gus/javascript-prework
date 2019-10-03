@@ -1,11 +1,11 @@
 {
-    function playGame(playerInput){
+    const playGame = function(playerInput){
 
     console.log(playGame);
 
     clearMessages();
 
-    function getMoveName(argMoveId){
+    const getMoveName = function(argMoveId){
         if(argMoveId == 1){
         return 'kamień';
         }
@@ -30,9 +30,10 @@
 
     console.log('Gracz wpisał: ' + playerInput);
 
-    console.log(displayResult);
 
-    function displayResult(argComputerMove, argPlayerMove){
+
+    const displayResult = function(argComputerMove, argPlayerMove){
+        console.log(displayResult)
         console.log('moves:', argComputerMove, argPlayerMove);
         printMessage('Mój ruch to: ' + argComputerMove);
         printMessage('Twój ruch to: ' + argPlayerMove);
